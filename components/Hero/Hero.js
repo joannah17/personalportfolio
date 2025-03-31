@@ -4,6 +4,9 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+/* eslint-disable react/no-unescaped-entities */
+
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>

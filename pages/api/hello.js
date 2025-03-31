@@ -1,5 +1,12 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import React from "react";
 
-export default (req, res) => {
-  res.status(200).json({ name: 'Joannah Marie Cata' })
-}
+const Hero = () => {
+  return (
+    <section>
+      <h1>Welcome to My Portfolio</h1>
+      <p>{"It's a beautiful day to build something amazing!"}</p>
+    </section>
+  );
+};
+
+export default Hero;
