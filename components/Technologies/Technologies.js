@@ -7,10 +7,9 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I&apos;ve worked with a range of technologies in the web development world.
-      From Front-end to Back-end.
+      I&apos;am exploring front-end development, including React.js, HTML, and CSS, as well as UI/UX design in Figma.
     </SectionText>
     <List>
       <ListItem>
@@ -18,31 +17,22 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Experience with React.js, <br />
+            HTML and Css.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiZend size="3rem" />
+      <DiZend size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            tools like Figma. 
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      
     </List>
   </Section>
 );

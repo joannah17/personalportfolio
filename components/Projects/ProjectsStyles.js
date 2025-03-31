@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:300px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -92,13 +92,25 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+text-align: center;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
   background: #801414;
 
 }
+`;
+export const Code = styled.a`
+  color:rgb(224, 215, 215);
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  margin-right:120px;
+  border-radius: 15px;
+  transition: 0.5s;
+  &:hover {
+    background: #801414;
+  }
 `;
 
 export const TagList = styled.ul`

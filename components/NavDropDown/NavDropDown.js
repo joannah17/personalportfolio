@@ -28,7 +28,7 @@ export const DropDownContainer = styled.div`
 `
 export const DropDownItem = styled.a`
   width: 100%;
-  display: flex;
+  display: ;
   align-items: flex-start;
   cursor: pointer;
   transition: .3s ease;

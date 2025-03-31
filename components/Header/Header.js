@@ -5,40 +5,34 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
-      <Link legacyBehavior href="/">
-        <a style={{display:"flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+      <Link href="/" passHref legacyBehavior>
+        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" , position: "sticky", top: "0"}}>
+          <DiCssdeck size="3rem" /> <Span>My Portfolio</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#projects" passHref legacyBehavior>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#tech" passHref legacyBehavior>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#about" passHref legacyBehavior>
+          <NavLink>About Me</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/goketech'>
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/in/modupe-akanni-236377235/'>
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href='https://instagram.com/adegoke_akanni'>
+      <SocialIcons href="https://www.instagram.com/wannah_rayd?igsh=MTc4NGRzMzVobnptaQ">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>

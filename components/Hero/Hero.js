@@ -12,9 +12,15 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        An Experienced Front-end Developer passionate about making Impact and building beautiful modern websites.
+     I want to explore front-end development, back-end development and UI/UX design, with a passion for making an impact and building beautiful, modern websites.
       </SectionText>
-      <Button onClick={() => window.location = 'https://github.com/goketech'}>Learn More</Button>
+
+      <SectionText>
+        HELLO THERE!
+      </SectionText>
+      <SectionText>
+      LET'S ENJOY MY SIMPLE PORTFOLIO
+      </SectionText>
     </LeftSection>
   </Section>
 );

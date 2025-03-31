@@ -46,11 +46,9 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I&apos;m Modupe, but people call me &quot;Goke.&quot; I&apos;m a frontend developer, and I specialize in efficient React apps and CSS & HTML that just work across all platforms and browsers. I care deeply about building interfaces that are usable and pleasant for the most number of people possible.
-
-        My professional life has been 100% driven by my passion for design and structure. I&apos;ve had the opportunity to intern at a talent development agency &quot;Zuri&quot;, where I was able to utilise skills learnt to collaborate with developers, provide solutions to problems and work on projects. After that, I was a front-end developer at Techaton, where I worked on projects weekly that involved bringing beautiful modern UI/UX designs to life.
-
-        Right now, I&apos;m excited about the still very complicated Web3, and working towards becoming a React senior. In the following years, I also plan to explore the &quot;server-side&quot; more and become a better-rounded full-stack dev.
+        I&apos;m Joannah Marie Cata 2nd year BSIT, but people call me Jo, an aspiring  
+        frontend developer and UI/UX designer,continuously learning and improving my 
+        skills every day.
       </SectionText>
     {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>
